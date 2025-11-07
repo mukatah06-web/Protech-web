@@ -1,0 +1,361 @@
+protech-website/
+│
+├── index.html
+├── products.html
+├── services.html
+├── blog.html
+├── contact.html
+├── styles.css
+└── images/
+    ├── product1.jpg
+    ├── product2.jpg
+    ├── product3.jpg
+    ├── blog1.jpg
+    └── blog2.jpg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protech Residential & Commercial Plumbing and Supplies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">Protech Residential & Commercial Plumbing and Supplies</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Your trusted source for quality plumbing products and expert service.</h1>
+  <a href="products.html" class="btn">Explore Products</a>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <h3>Quality Materials</h3>
+    <p>We source only the best plumbing materials from trusted suppliers.</p>
+  </div>
+  <div class="feature">
+    <h3>Expert Service</h3>
+    <p>Licensed plumbers delivering top-tier service for homes and businesses.</p>
+  </div>
+  <div class="feature">
+    <h3>Reliable Support</h3>
+    <p>Guidance and after-sales support for all your plumbing needs.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Protech Plumbing & Supplies | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products - Protech Plumbing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">Protech Residential & Commercial Plumbing and Supplies</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Our Plumbing Products</h1>
+</section>
+
+<section class="products">
+  <div class="product-card">
+    <img src="images/product1.jpg" alt="Pipes">
+    <h3>PVC Pipes</h3>
+    <p>Durable and lightweight pipes for all residential and commercial needs.</p>
+  </div>
+  <div class="product-card">
+    <img src="images/product2.jpg" alt="Fittings">
+    <h3>Fittings</h3>
+    <p>Range of joints, elbows, and connectors for secure installations.</p>
+  </div>
+  <div class="product-card">
+    <img src="images/product3.jpg" alt="Valves">
+    <h3>Valves</h3>
+    <p>High-quality valves ensuring precise water flow control.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Protech Plumbing & Supplies | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services - Protech Plumbing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">Protech Residential & Commercial Plumbing and Supplies</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Our Plumbing Services</h1>
+</section>
+
+<section class="services">
+  <div class="service">
+    <h3>Residential Plumbing</h3>
+    <p>Complete installation and repair services for homes.</p>
+  </div>
+  <div class="service">
+    <h3>Commercial Plumbing</h3>
+    <p>Expert solutions for offices, hotels, and large-scale facilities.</p>
+  </div>
+  <div class="service">
+    <h3>Emergency Repairs</h3>
+    <p>24/7 emergency plumbing assistance available on call.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Protech Plumbing & Supplies | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - Protech Plumbing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">Protech Residential & Commercial Plumbing and Supplies</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Plumbing Tips & Insights</h1>
+</section>
+
+<section class="blog-list">
+  <article class="blog-post">
+    <img src="images/blog1.jpg" alt="Plumbing tips">
+    <h2>Top 5 Plumbing Maintenance Tips</h2>
+    <p>Learn how to prevent common plumbing issues before they start...</p>
+    <a href="#">Read More</a>
+  </article>
+  <article class="blog-post">
+    <img src="images/blog2.jpg" alt="Pipe materials">
+    <h2>Choosing the Right Pipe Material</h2>
+    <p>Understanding the difference between PVC, copper, and PEX pipes.</p>
+    <a href="#">Read More</a>
+  </article>
+</section>
+
+<footer>
+  <p>&copy; 2025 Protech Plumbing & Supplies | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Protech Plumbing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">Protech Residential & Commercial Plumbing and Supplies</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Contact Us</h1>
+</section>
+
+<section class="contact">
+  <form action="https://formspree.io/f/mvovdqry" method="POST">
+    <label>Name</label>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <label>Message</label>
+    <textarea name="message" placeholder="Your message..." required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <div class="contact-info">
+    <h3>Get in Touch</h3>
+    <p>Email: mukatah06@gmail.com</p>
+    <p>Phone: (555) 123-4567</p>
+    <p>Address: 123 Main Street, Cityville</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Protech Plumbing & Supplies | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #004c7f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+header .logo {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #0096d6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.features, .products, .services, .blog-list, .contact {
+  padding: 40px 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.feature, .service, .product-card, .blog-post {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.page-header {
+  text-align: center;
+  background: #e8f3f9;
+  padding: 40px 15px;
+}
+
+footer {
+  background: #004c7f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #0096d6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
